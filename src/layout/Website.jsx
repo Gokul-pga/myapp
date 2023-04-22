@@ -10,10 +10,10 @@ function Website() {
 const getAllProducts =async()=>{
 const result =await fetch(`${BASE_URL}/products`).then((res)=>res.json()).then((res)=>res)
 setallproducts(result)
-}
+} 
 useEffect(() => {
   getAllProducts()
-}, [allProducts])
+}, [])
 
 
   return (
