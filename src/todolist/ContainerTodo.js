@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import Card from "./Card";
 
-function ContainerTodo({list,DeleteTodolist}) {
+function ContainerTodo({list,EditItems}) {
   
   return (
     <>
@@ -16,7 +16,7 @@ function ContainerTodo({list,DeleteTodolist}) {
           gap: 2,
         }}
       >
-        <Card DeleteTodolist={DeleteTodolist} list={list}/>
+        <Card  list={list} EditItems={EditItems}/>
       </Box>
     </>
   );
