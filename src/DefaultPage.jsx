@@ -16,10 +16,7 @@ function DefaultPage() {
                 <Typography>Email Verification Check</Typography>
                 <Button variant='contained'  onClick={()=>{Navigate('./testapi')}}>Click Here!</Button>
             </Box>
-            <Box sx={{backgroundColor:'palegreen',width:'700px',height:"70px",padding:'20px',textAlign:'center',borderRadius:'10px'}}>
-                <Typography>CRUD Operation using Supabase</Typography>
-                <Button variant='contained'  onClick={()=>{Navigate('./ToDolist')}}>Click Here!</Button>
-            </Box>
+            
            
         </Stack>
     </Box>
