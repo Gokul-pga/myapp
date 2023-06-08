@@ -206,8 +206,6 @@ flexDirection:{xl:"row",lg:'row',md:'column',sm:'column',xs:'column'}          j
           alignItems: "center",
           width: "800px",
           height: "600px",
-          backgroundColor:'#cccccc',
-          padding: "20px",
         }}
       >
         <Box 
