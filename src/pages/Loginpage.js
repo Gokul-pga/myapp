@@ -98,7 +98,7 @@ if(error){
           alignItems: "center",
           width: "800px",
           height: "600px",
-          padding: "20px",
+          
         }}
       >
         <Box 
