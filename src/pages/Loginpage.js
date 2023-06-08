@@ -98,7 +98,7 @@ if(error){
           alignItems: "center",
           width: "800px",
           height: "600px",
-          
+          flexDirection:{xl:"row",lg:'row',md:'column',sm:'column',xs:'column'}
         }}
       >
         <Box 
