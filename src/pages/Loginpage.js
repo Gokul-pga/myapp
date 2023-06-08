@@ -201,9 +201,8 @@ if(error){
       }}
     >
       <Stack
-        sx={{
-          flexDirection: "row",
-          justifyContent: "space-around",
+        sx={{       
+flexDirection:{xl:"row",lg:'row',md:'column',sm:'column',xs:'column'}          justifyContent: "space-around",
           alignItems: "center",
           width: "800px",
           height: "600px",
